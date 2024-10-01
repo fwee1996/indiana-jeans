@@ -1,0 +1,43 @@
+******make sure youre in api folder and gitbash:$json-server database.json -p 8088**** b4 serve!
+
+
+
+
+1.api>database.json ----contains submissions and sociolocation array
+
+2.Static OwnJeans?
+
+3.Dynamic locations "Urban Dwellers"--get data from database
+*async () => {
+    await fetch ("http:..")
+     await response.json()
+
+
+*choicesHTML+=`<input type='radio' name='location' value='...'/> ---input always self closing and radio type
+
+4.Transient State
+--allow other modules to change state:
+*export const setOwnsBlueJeans
+*export const setSocioLocationId
+*export const saveSurveySubmission
+
+async ()=>{
+    const postOptions={
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+            body: JSON.stringify(transientState)
+            const response = await fetch ('http://localhost:8088/submissions', postOptions)
+
+
+5.POST FETCH REQUEST, BUTTON TRIGGER POST , CLICK EVENT TRIGGER POST
+
+6. Make button save submission to invoke transient postOtions request
+
+7. post request network>payload tab send out preview tab send u back what u created(response)
+8. Look in database.json >>new submission object created!
+saved to permanent state changes on UI dont affect yiu own work
+
+
+**custom event**
+look in TS.js and main.js
